@@ -1,3 +1,6 @@
+import 'bulma';
+import '@fortawesome/fontawesome-free';
+
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({

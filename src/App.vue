@@ -6,6 +6,7 @@ import PictureCard from './components/PictureCard.vue';
 import PictureText from './components/PictureText.vue';
 import Forecast from './components/Forecast.vue';
 import WeatherSlide from './components/WeatherSlide.vue';
+import FormForWeather from './components/FormForWeather.vue';
 
 </script>
 
@@ -13,7 +14,8 @@ import WeatherSlide from './components/WeatherSlide.vue';
   <main class="block">
     <Forecast />
     <WeatherSlide />
-    <Button>Детальніше</Button>
+    <!-- <Button>Детальніше</Button> -->
+    <FormForWeather />
   </main>
   <Picture>
     <PictureText />

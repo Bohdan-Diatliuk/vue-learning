@@ -5,10 +5,10 @@ import WeatherButton from './WeatherButton.vue';
 
 <template>
     <div class="weather">
-        <WeatherButton class="button"/>
-        <WeatherButton class="button"/>
-        <WeatherButton class="button"/>
-        <WeatherButton class="button"/>
+        <WeatherButton class="weather-button"/>
+        <WeatherButton class="weather-button"/>
+        <WeatherButton class="weather-button"/>
+        <WeatherButton class="weather-button"/>
     </div>
 </template>
 
@@ -20,7 +20,7 @@ import WeatherButton from './WeatherButton.vue';
         gap: 11px;
     }
 
-    .button {
+    .weather-button {
         display: flex;
         justify-content: center;
         align-items: center;

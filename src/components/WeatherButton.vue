@@ -5,9 +5,9 @@ import { SunMedium } from 'lucide-vue-next';
 
 <template>
     <div class="card">
-        <SunMedium class="sun"/>
-        <h3>25°</h3>
-        <h3>day</h3>
+        <SunMedium class="card-sun"/>
+        <h3 class="card-degree">25°</h3>
+        <h3 class="card-day">day</h3>
     </div>
 </template>
 
@@ -29,7 +29,7 @@ import { SunMedium } from 'lucide-vue-next';
         transform: translateY(-6px);
     }
 
-    .sun {
+    .card-sun {
         width: 30px;
         height: 30px;
         margin-bottom: 10px;
@@ -38,6 +38,10 @@ import { SunMedium } from 'lucide-vue-next';
     .card h3 {
         font-size: 15px;
         margin: 5px;
+    }
+
+    .card-degree {
+        font-weight: 400;
     }
 
 </style>

@@ -3,16 +3,16 @@
 <template>
     <div class="forecast">
         <div class="block">
-            <span>Вологість</span>
-            <span>af</span>
+            <span class="block-primary">Вологість</span>
+            <span>%</span>
         </div>
         <div class="block">
-            <span>Опади</span>
-            <span>124</span>
+            <span class="block-primary">Опади</span>
+            <span>%</span>
         </div>
         <div class="block">
-            <span>Вітер</span>
-            <span>12</span>
+            <span class="block-primary">Вітер</span>
+            <span>м/с</span>
         </div>
     </div>
 </template>
@@ -23,15 +23,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 27px;
         margin: 30px;
-        text-transform: uppercase;
+        font-size: 23px;
     }
-
+    
     .block {
         display: flex;
         justify-content: space-between;
         width: 90%;
+        padding: 3px;
+    }
+    
+    .block-primary {
+        text-transform: uppercase;
+        font-weight: bold;
     }
 
 </style>

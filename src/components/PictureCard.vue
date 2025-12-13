@@ -25,6 +25,7 @@ import { SunIcon } from 'lucide-vue-next';
 
     .card h3 {
         margin: 0px;
+        font-weight: 700;
     }
 
     .sun {

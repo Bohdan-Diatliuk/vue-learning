@@ -1,30 +1,24 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import Button from './components/Button.vue';
+import WeatherButton from './components/WeatherButton.vue';
+import Picture from './components/Picture.vue';
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <main class="block">
+  </main>
+  <Picture>AAA</Picture>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+  .block {
+    position: absolute;
+    border-radius: 20px;
+    left: 35%;
+    top: 20%;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(34, 40, 49, 1);
+  }
 </style>

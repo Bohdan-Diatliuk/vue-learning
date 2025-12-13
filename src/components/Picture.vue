@@ -29,13 +29,12 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(152.19deg, rgba(136, 235, 239, 0.4) -0.04%, rgba(83, 91, 230, 0.4) 100%);
+        background: linear-gradient(152.19deg, rgba(136, 235, 239, 0.7) -0.04%, rgba(83, 91, 230, 0.6) 100%);
         border-radius: 50px;
         backdrop-filter: blur(2px);
     }
 
     .text {
-        color: white;
         z-index: 1;
     }
 </style>

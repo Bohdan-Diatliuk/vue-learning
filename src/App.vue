@@ -15,6 +15,7 @@ import FormForWeather from './components/FormForWeather.vue';
     <Forecast />
     <WeatherSlide />
     <!-- <Button>Детальніше</Button> -->
+     
     <FormForWeather />
   </main>
   <Picture>
